@@ -1,0 +1,15 @@
+h2 {
+color: red;
+font-size-adjust: initial;
+font-style: oblique;
+}
+h3 {
+color: khaki;
+}
+p {
+    background-color: lemonchiffon;
+}
+p.note {
+background-color: lightcoral;
+font-style: medium;
+}

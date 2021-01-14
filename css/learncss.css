@@ -1,0 +1,43 @@
+h2{
+    color: red;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: lightcoral;
+}
+h1, .redtext{
+    color:maroon;
+}
+
+header, span, em {
+background-color: mediumaquamarine
+}
+article > h1 {
+    background-color: red;
+}
+article > p {
+    background-color: red;
+}
+p::first-letter{
+    color:royalblue;
+    font-size: larger;
+}
+* {
+    margin-left: 35px;
+}
+.notebox {
+    border: 4px solid orange;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.notebox.warning {
+    border: 5px solid red;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.notebox.danger {
+    border: 5px solid rgb(33, 190, 54);
+    font-weight: lighter;
+    margin-bottom: 20px;
+}

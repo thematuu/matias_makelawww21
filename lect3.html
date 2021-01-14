@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Text Formatting, Multimedia, Debugging</title>
+</head>
+<body>
+    <dl>
+        <dt>Website User Interface</dt>
+        <dd>This course will teach you the basics of web development</dd>
+        <dt>PHP</dt>
+        <dd>PHP will help us to add more features and functionalities to our web pages.</dd>
+    </dl> 
+<hr>
+<blockquote>Hello World</blockquote>
+<q>One more quotation</q>
+<p><abbr title="Hämeen ammattikorkeakoulu">HAMK</abbr> is the best UAS in Finland</p>
+<xmp>27<sup>th</sup> <br>
+    H<sub>2</sub>O</xmp>
+27<sup>th</sup> <br>
+H<sub>2</sub>O <br>
+<kbd>CTRL+F4</kbd>
+<pre><code>var para = document.querySelector('p');
+
+    para.onclick = function() {
+      alert('Owww, stop poking me!');
+    }</code></pre>
+    
+    <p>You shouldn't use presentational elements like <code>&lt;font&gt;</code> and <code>&lt;center&gt;</code>.</p>
+    
+    <p>In the above JavaScript example, <var>para</var> represents a paragraph element.</p>
+    
+    <p>Select all the text with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.</p>
+    
+    <pre>$ <kbd>ping mozilla.org</kbd>
+    <samp>PING mozilla.org (63.245.215.20): 56 data bytes
+    64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
+
+<hr>
+<video src="images/Clown.mp4" controls width="400" height="250" autoplay loop>
+    <p>Your browser doesn't support HTML5 video.
+       Here is a <a href="images/Clown.mp4">link to the video</a></p>
+  </video>
+
+  <audio controls>
+    <source src="images/horn.mp3" type="audio/mp3">
+    <p>Your browser doesn't support HTML5 audio. </p>
+  </audio>
+  <br>
+
+</body>
+</html>
