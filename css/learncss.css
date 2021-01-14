@@ -1,24 +1,38 @@
 h2{
-    color: red;
+    color: rgb(204, 0, 255);
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: lightcoral;
 }
-h1, .redtext{
-    color:maroon;
+h1{
+    color:red;
+    border-bottom: red;
+    border-bottom-width:large;
+    font-size: 16px;
 }
+.redtext1{
+    color:red;
+    
+    font-size: normal;
+}
+a:hover {
+    background-color: yellow ;
+    
+    color: purple;
+    text-decoration: slateblue;
+  }
 
 header, span, em {
 background-color: mediumaquamarine
 }
 article > h1 {
-    background-color: red;
+    background-color: gray;
 }
 article > p {
-    background-color: red;
+    background-color: gray;
 }
 p::first-letter{
-    color:royalblue;
+    color:rgb(0, 0, 0);
     font-size: larger;
 }
 * {
@@ -41,3 +55,9 @@ p::first-letter{
     font-weight: lighter;
     margin-bottom: 20px;
 }
+body {
+    background-color: #ceaea1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: rgb(29, 29, 29);
+   }

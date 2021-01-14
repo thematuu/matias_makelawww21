@@ -3,6 +3,8 @@
  <head>
   <meta charset="utf-8">
   <meta name="description" content="This is a Generic News site">
+  <meta http-equiv="content-type" content="text/html" charset="ISO-8859-1" />
+  <link href="css/style.css" rel="stylesheet" type="text/css">
   <title>Generic news site</title>
  </head>
  <body>
@@ -14,14 +16,19 @@
   <h1>Exercise 1</h1>
   <h1>Generic News</h1>
 <hr>
-  <h2>Heavy snowstorm in Finland</h2>
+  <h2 style="color: red;font-family: 'Times New Roman', Times, serif; font-size: 16px;background-color: rosybrown;text-decoration-style: dotted;">Heavy snowstorm in Finland</h2>
   
     <img src="images/Snowstorm.jpg" alt="Snowstorm" width="500">
     <p>Snow <u>always</u> surprises someone. <a href="https://yle.fi/uutiset/osasto/news/powerful_snowstorm_sweeps_across_finland/6121947" target="_blank">read more...</a></p>
     <tr>
       <hr>
 <h2>Trump said something <u>stupid</u></h2>
-    <img src="images/Trump.png" alt="Trump" width="500">
+<figure>
+    <img  src="images/Trump.png" alt="Trump" width="500">
+    <figcaption class="caption">
+      Caption for Trupm image
+    </figcaption>
+  </figure>
     <p>People are <i>shocked</i> by <b>Trump</b>’s words  <a href="https://edition.cnn.com/2021/01/08/tech/trump-twitter-ban/index.html" target="_blank">read more...</a></p>   
       <hr>
     <h1>Exercise 2</h1>
@@ -29,13 +36,25 @@
       <article>
         <h1>Finland plans Covid testing aboard passenger ships</h1>
             
-                <img src="images/CovidTest.jpg" style="float: right; max-width:300px; margin: -50px 500px;" /> 
+                <img src="images/CovidTest.jpg" style="float: right; max-width:300px; margin: -70px 500px;" /> 
                 <p>Testing aboard ships will be voluntary for passengers</p>
                 <p>The pilot project will begin with the testing of passengers aboard one ship arriving into Helsinki on Friday 15 January.</p>
                 
             
             <address>Hämeen ammattikorkeakoulu HAMK PL 230 13101 Hämeenlinna</address>
     </article>
-          
- </body>
+    <tr>
+      <hr>       
+<h1>Exercise 3</h1>  
+<p>Consistent error handling, better support for mobile devices and native support of video and audio.</p>
+<video src="images/Clown.mp4" controls width="400" height="250" autoplay loop>
+  <p>Your browser doesn't support HTML5 video.
+     Here is a <a href="images/Clown.mp4">link to the video</a></p>
+</video>
+
+<audio controls>
+  <source src="images/horn.mp3" type="audio/mp3">
+  <p>Your browser doesn't support HTML5 audio. </p>
+</audio> 
+</body>
 </html>

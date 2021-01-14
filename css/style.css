@@ -13,3 +13,71 @@ p.note {
 background-color: lightcoral;
 font-style: medium;
 }
+h2{
+    color: rgb(204, 0, 255);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: lightcoral;
+}
+h1{
+    color:red;
+    border-bottom: red;
+    border-bottom-width:large;
+    font-size: 16px;
+}
+.redtext1{
+    color:red;
+    
+    font-size: normal;
+}
+a:hover {
+    background-color: yellow ;
+    
+    color: purple;
+    text-decoration: slateblue;
+  }
+
+header, span, em {
+background-color: mediumaquamarine
+}
+article > h1 {
+    background-color: gray;
+}
+article > p {
+    background-color: gray;
+}
+p::first-letter{
+    color:rgb(0, 0, 0);
+    font-size: larger;
+}
+* {
+    margin-left: 35px;
+}
+.notebox {
+    border: 4px solid orange;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.notebox.warning {
+    border: 5px solid red;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.notebox.danger {
+    border: 5px solid rgb(33, 190, 54);
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+body {
+    background-color: #ceaea1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: rgb(29, 29, 29);
+   }
+
+   .caption {
+    font: size 14;
+    font-style: italic;
+}   
