@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box - Layout</title>
+    <style>
+     /*    .flexContainer {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: blueviolet;
+            align-content: space-between;
+        }
+            .flexContainer > div, div {
+                background-color: chartreuse;
+                margin: auto;
+                text-align: center;
+                line-height: 50px;
+                font-size: 20px;
+                width: 70%;
+                           
+        } */
+
+        .wrapper {
+            margin: auto;
+            width: 70%;
+        }
+        .topmenu {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            margin: 0;
+            background-color: crimson;
+        }
+        .topmenu >li {
+            list-style: none;
+            padding: 1em;
+            color: white;
+        }
+        .flexgrowcon {
+            display: flex;
+            align-items: stretch;
+        }
+
+        leftbar,rightbar {
+            background-color: yellow;
+            min-height: 500px;
+        }
+
+        footer {
+        background-color: black;
+        color: white;
+        height: 40px;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+     <header>
+        <ul class="topmenu">
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+            <li>Link 4</li>
+        </ul>
+    </header>
+    <div class="flexgrowcon">
+        <leftbar style="flex-grow: 1;">
+        Some text.
+        </leftbar>
+
+        <content style="flex-grow: 6;">
+        
+        This is going to the main content
+        </content>
+        <!-- <rightbar style="flex-grow: 1;">
+            Some text.
+            </rightbar> -->
+
+
+    </div>
+    <footer>
+        Hello word this is my footer.
+    </footer>
+    </div>
+</body>
+</html>
