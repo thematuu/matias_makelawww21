@@ -1,0 +1,25 @@
+header {
+    background-color: darkgray;
+    color: white;
+    font-size: xx-large;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    footer {
+        background-color: darkgray;
+        color: white;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        a:hover {
+            background-color: rgb(85, 84, 84) ;
+            
+          }
